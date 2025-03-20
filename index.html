@@ -1,0 +1,246 @@
+<html>
+    <head>
+        <title>My Site</title>
+        <style>
+            #splash {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index:3; 
+      width: 100%;
+      height: 100%;
+      background: #4CbF50; /* Background color */
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+    }
+            header{
+    background-color:#ffcc5c;
+    color:#fff;
+    padding: 20px;
+    text-align: center;
+    }
+    header h1{
+        font-size: 2.5em;
+        margin=0;
+    }
+    .container{
+        margin:20px auto;
+        padding:20px;
+        max-width:700px;
+        background-color:#fff;
+        border-radius:10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #ffcc5c;
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        background: #444;
+        padding: 10px;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+    }
+    nav a:hover {
+        background: #555;
+    }
+    section {
+        display: none;
+        padding: 20px;
+        
+    }
+    #home {
+        display: block;
+        text-align: center;
+        
+    }
+    .gallery img {
+        width: 200px;
+        height: 150px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        margin: auto;
+    }
+    input, textarea {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+    button {
+        padding: 10px;
+        background: #333;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background: #555;
+    }
+    .c2{
+        margin:20px auto;
+        padding:20px;
+        max-width:700px;
+        background-color:#fff;
+        border-radius:10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+        </style>
+        
+        </head>
+        <body bgcolor="sky blue">
+            <div id="splash">Loading...</div>
+            <header>
+<h1>
+    My First Website
+</h1>
+
+</header><nav>
+    
+    <a href="#" onclick="showSection('home')">Home</a>
+    <a href="#" onclick="showSection('about')">About Me</a>
+    <a href="#" onclick="showSection('gallery')">Gallery</a>
+    <a href="#" onclick="showSection('contact')">Contact Me</a>
+    
+</nav>
+
+<section id="home">
+    <br>
+    <br>
+    <hr>
+    <center><h2><u>Home</h2></u></center>
+    
+    
+    
+    <div class="container home" id="home">
+    <marquee>
+          <font color="red">
+        <h2>
+            Welcome to my website! 
+        </h2>
+        </font>
+    </marquee>
+    
+    <p>• This is my personal Website that showcases my talent, skills, interests and personality.</p>
+     <p> • This website contains four pages which consist of home page, about me page, gallery page
+        and contact me page.
+    </p>
+    <p>• Explore to learn more about me.</p>
+    
+</div>
+
+
+ <hr>
+    
+</section>
+
+<section id="about">
+    <br>
+    <br>
+    <hr>
+  <center><b><h2><u>About Me</u></h2></b></center>
+  <div class="c2 about" id="about">
+     <center>
+    <p>Hi, I'm Akshat Ashish Churi. I'm 18 years old.Now I am studying Computer Engineering in Fr. crce bandra.I am passionate about learning new things and exploring new places.My hobbies are drawing,cycling and traveling.I am good at learning and hardworking.My weak points are laziness and not having discipline.</p>
+    </center>
+    </div>
+    <br>
+    <br>
+    <hr>
+</section>
+
+<section id="gallery">
+    <br>
+<br>
+    <hr>
+<center>   <h2><u>Gallery</u></h2></center>
+    <div class="gallery">
+        <center>
+            <a href="https://www.bing.com/ck/a?!&&p=9212816d0d83ae969c0cfd6baf7e0090d058ae4d1df939c79cf7c2c326524cc6JmltdHM9MTc0MjI1NjAwMA&ptn=3&ver=2&hsh=4&fclid=10098c0e-13d5-6990-2ecb-9971121c6863&psq=youtube.com&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20v&ntb=1">
+        <img src="akuu.jpg" height="70%" width="50%" ></a>
+        <a href="https://www.bing.com/ck/a?!&&p=9212816d0d83ae969c0cfd6baf7e0090d058ae4d1df939c79cf7c2c326524cc6JmltdHM9MTc0MjI1NjAwMA&ptn=3&ver=2&hsh=4&fclid=10098c0e-13d5-6990-2ecb-9971121c6863&psq=youtube.com&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20v&ntb=1">
+        <img src="akshu.jpg" height="80%" width="40%"></a>
+        </center>
+        
+    </div>
+    <br>
+    <br>
+
+    <hr>
+</section>
+<section id="contact">
+    <br>
+    <br>
+    <hr>
+<center>   <h2><u>Contact Me</u></h2></center>
+    <!-- <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+    </form> -->
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+    <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="d5eea636-2334-4db1-9387-ed457844c783">
+
+    <!-- Form Inputs. Each input must have a name="" attribute -->
+    <input type="text" name="name" required placeholder="Your Name ">
+    <input type="email" name="email" required placeholder="Your Email">
+    <textarea name="message" required placeholder="Your Message"></textarea>
+
+    <!-- Honeypot Spam Protection -->
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+    <!-- Custom Confirmation / Success Page -->
+    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+    <button type="submit">Send</button>
+
+</form>
+<br>
+    <hr>
+    <br>
+    <br>
+   <center> <a href="https://www.bing.com/ck/a?!&&p=0d6e35784b32b102e7e65e471f3bfaf96b12b2e8ca8b9befd804a31465f7d07dJmltdHM9MTc0MjM0MjQwMA&ptn=3&ver=2&hsh=4&fclid=10098c0e-13d5-6990-2ecb-9971121c6863&psq=frcrce+website&u=a1aHR0cDovL3d3dy5mcmNyY2UuYWMuaW4v&ntb=1"><font color="red">for more information visit our official website.</font> </a></center>
+</section>
+
+
+<footer>© 2025 My First Website | all rights reserved!</footer>
+
+<script>
+    // Hide splash screen after 4 seconds
+    setTimeout(() => {
+      document.getElementById('splash').style.display = 'none';
+    }, 4000);
+    
+    const homepage=
+    document.getElementById("home");
+    function showSection(id) {
+        document.querySelectorAll('section').forEach(section => {
+            section.style.display = 'none';
+        });
+        document.getElementById(id).style.display = 'block';
+    }
+</script>
+        </body>
+    
+</html>
